@@ -1,0 +1,190 @@
+﻿body,html{
+	height:100%;
+	width:100%;
+	position:relative;
+ /*  background-color:#E9EAEB; */
+   
+}
+/* Navigation and menu div on the top of the page*/
+.navcolor{
+ background-color:#E9EAEB;
+ opacity:0.5;
+/* background: 
+	          linear-gradient(rgba(86, 141, 138,0.45),rgba(96, 141, 138,0.45));*/
+  height: 70px;
+}
+.MenuDiv{
+   margin: 0 0% 0 0% ;
+   padding:0 0 0 0 ;
+   height:70px;
+   width:100%;
+   font-size:20px;  
+   font-weight: normal;
+   font-family: 'Lato', sans-serif;
+   float:left;  
+}
+/* Name and logo*/
+.LogoDiv{
+   margin: 0 0 0 0 ;
+   padding: 2% 0 0 3%;
+   height:74px;
+   width: 20%;
+   color:#333333;
+   font-size:26px;
+   font-weight: normal;
+   font-family: 'Lato-700';	
+   text-shadow: 4px 4px 4px #aaa;
+   line-height:30px;
+   float:left; 
+   
+}
+.LogoDiv:hover{
+ -webkit-text-fill-color: #8FBFBD;
+  transition: width 2s, height 2s, transform 2s;
+  transition-delay: 2s;
+  transition-duration:60s;
+   transition-timing-function: ease;
+}
+/* Menu Items Home Portfolio and Contact*/
+.NavDiv {
+  /* margin: 25px 5% 0 0 ;*/
+   padding: 0 0 0 0;
+ /*  height:75px;*/
+   width: 30%;
+   display:flex;
+   /* display Home/Contact/Portfolio menu to the right*/
+   float:right;
+   /* This enables equal spacing between div items*/
+   flex-direction: row;  
+   justify-content:space-around;
+  
+}
+/* The background pic on the home page*/
+.HomeDiv{
+   padding: 0 0 0 0;
+	margin: 70px 0 0 0;
+	background: 
+	           linear-gradient(rgba(86, 141, 138,0.45),rgba(0, 0, 0,0.45)),
+              
+              url('c:/Ramya/SoftwareDeveloperPortfolio/images/laptop.jpg'); 
+              
+	background-position: center;
+   background-size: cover;
+   height: 550px;
+   width:100%;
+}
+
+
+.MenuText{
+  font-size:16px;
+  line-height:30px;
+  padding: 25px 5% 0 0 ;
+/*  padding: 0 20% 0 20%;*/
+  height: 100%;
+  width: 150px;
+  color:rgb(0, 0, 0);
+  font-family: 'Lato-bold', sans-serif;	
+  text-align:center;
+}
+
+.MenuText:hover{ 
+ /*  margin: 0 0 0 0;  
+   padding:0 0 0 0;*/
+   color: white;
+   font-weight: bold;
+   font-family: 'Lato', sans-serif;  
+   background-color :#8FBFBD;
+}
+
+.MenuDiv a:hover{
+text-decoration: none; 
+}
+
+h1{
+color: #333333;
+}
+
+.CenterDiv{
+   margin: 5% 10% 0 10%;
+   padding: 5% 5% 5% 5%;
+   float:left;
+	font-size:40px;
+   line-height:50px;
+   font-weight:normal;
+   height:200px;
+   width: 80%;
+   text-align: center;
+	color:white;
+   font-family: 'Lato', sans-serif;  
+  }
+.CenterText{
+  font-size:20px;
+  line-height:30px;
+  font-weight:normal;
+  width: auto;
+  color:white;	
+  text-align:center;
+}
+
+
+.Portfolio{
+ padding: 0 5% 0 15%;
+ 
+}
+
+.PortfolioImg{
+ padding-top:0;
+ margin: 0 0 0 0 ;
+ height:200px;
+ width:200px;
+    
+
+}
+.PortfolioText{
+ padding:10px 0 0  5px;
+ margin: 0 0 0 0 ;
+ text-align:left;
+ height: 70px;
+ font-size:15px;
+ font-weight: bold;
+ font-family: 'Lato', sans-serif;
+ color: #333333;
+ width: 300px;
+  background-color: #F5F5F5
+ z-index:200;
+ position:absolute;
+}
+
+.PortfolioAnimate{
+ padding-top:0;
+ z-index:200;
+ margin: 0 0 0 0 ;
+ height:250px;
+ width: 300px;
+ display: none;
+ background: 
+	          linear-gradient(rgba(92, 72, 82, 0.6), rgba(92, 72, 82, 0.6));
+             opacity:0.7;
+ vertical-align: bottom;
+ color:white;
+ }
+
+  
+  h1{
+  text-align:center;
+  }
+  .ProjectName
+  {
+   width:auto;
+   
+   border-radius:10px;
+   background-color:green;
+   color:white;   
+  }
+  
+.PortfolioImg:hover{
+     background: 
+	          linear-gradient(rgba(92, 72, 82, 0.6), rgba(92, 72, 82, 0.6)),
+             url('c:/Ramya/SoftwareDeveloperPortfolio/images/laptop.jpg');
+    
+}
