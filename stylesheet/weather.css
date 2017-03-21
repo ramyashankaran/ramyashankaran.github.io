@@ -1,0 +1,29 @@
+/* stylesheet for the weather app */
+body,html{
+height:100%;
+width:100%;
+}
+.center{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  
+  /*
+instead of negative margin use transform for -ve margins when using percentages
+  margin-left: -25%;
+  margin-top: -25%;
+  */
+  transform: translate(-50%, -50%);
+  width: 50%;
+  height:40%;
+  background-color: black;
+  opacity:0.7;
+  border-radius:5px;
+}
+.centerText{
+  font-size:20px;
+  line-height:30px;
+  font-weight:normal;
+  color:white;	
+  text-align:center;
+}

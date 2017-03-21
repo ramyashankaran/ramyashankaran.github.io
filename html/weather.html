@@ -1,18 +1,19 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
+<link rel="stylesheet" type="text/css" href="../stylesheet/weather.css">
    <script type = "text/javascript" 
          src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+   
+   
 </head>
-<body>
+<body onload="getLocation()">
 
-<p>Click to get your coordinates.</p>
-
-<button onclick="getLocation()">Try It</button>
-
-<p id="demo"></p>
-<p id="urltext"></p>
-<p id="weathertext"></p>
+<div class="center centerText">
+            <div id="demo"></div>
+            <div id="locationText"></div>
+            <div id="weatherText"></div>
+</div>
 <script type="text/javascript" src="../js/weather.js"></script>
 </body>
 </html>
