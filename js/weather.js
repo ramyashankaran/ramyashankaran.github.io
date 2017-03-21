@@ -37,7 +37,7 @@ function showPosition(position) {
 function handleData(responseData) {
 
    var tempInFarenheight = (responseData["main"]["temp"] *9)/5  - 459.67;
-      if(tempInFarenheight <= 45 )
+      if(tempInFarenheight <= 55 )
       {
       
          $("body").css({
