@@ -27,7 +27,6 @@ function showPosition(position) {
                          pos["longitude"]  +     
                          "&appid=c437da5c2e3ca02811cdc357dd1c6767"; 
          // AJAX call to get the weather for this location             
-       document.getElementById("urltext").innerHTML = requestURL;
        $.getJSON(requestURL,null,function(responseData) {
      document.getElementById("weathertext").innerHTML= "humidity:"+ responseData["main"]["temp"];
      });
