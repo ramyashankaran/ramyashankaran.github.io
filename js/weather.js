@@ -24,7 +24,7 @@ function showPosition(position) {
     
       x.innerHTML = "Latitude: " + pos["latitude"] + 
           "<br>Longitude: " + position.coords.longitude;
-      var requestURL = "http://api.openweathermap.org/data/2.5/weather?lat="  +
+      var requestURL = "https://api.openweathermap.org/data/2.5/weather?lat="  +
                          pos["latitude"] +
                          "&lon=" +
                          pos["longitude"]  +     
